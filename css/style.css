@@ -1,0 +1,90 @@
+/* main color: #DA904B */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 400;
+    font-size: 16px;
+}
+.logo{
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.logo img {
+    width: 100%;
+}
+.logo-area p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #DA904B;
+    margin-top: -16px;
+}
+.search-box {
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 0px;
+}
+.search-box .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #DA904B;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(218, 144, 75, 0.25);
+}
+.search-box .input-group-text {
+    background-color: #DA904B;
+    border: 1px solid #DA904B;
+    color: #fff;
+    cursor: pointer;
+}
+.search-box .input-group-text:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(218, 144, 75, 0.25);
+}
+.meal-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-title {
+    color: #DA904B;
+    text-transform: capitalize;
+}
+#details-btn {
+    background-color:#DA904B ;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+#result {
+    color: #DA904B;
+}
+
+/* modal box area */
+.customize-modal-box .card {
+    border: 0px solid rgba(0,0,0,.125);
+}
+.customize-modal-box .modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+}
+.customize-modal-box .modal-images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.customize-modal-box span {
+   background-color: #DA904B;
+   color: #fff;
+   padding: 5px 10px;
+   margin: 2px;
+   display: inline-block;
+}
+
+/* spinner */
+#spinner{
+    display: none;
+}
